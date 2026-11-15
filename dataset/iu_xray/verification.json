@@ -1,0 +1,27 @@
+{
+  "downloaded_on": "2026-09-25",
+  "prepared_image_files": 6091,
+  "prepared_cases": 2955,
+  "split_counts": {
+    "train": 2069,
+    "val": 296,
+    "test": 590
+  },
+  "unique_referenced_images": 5910,
+  "missing_referenced_images": [],
+  "original_xml_reports": 3955,
+  "zip_crc_check": "passed",
+  "png_integrity_checks": "passed",
+  "xml_parse_checks": "passed",
+  "case_ids_disjoint_across_splits": true,
+  "archives": {
+    "NLMCXR_reports.tgz": {
+      "bytes": 1112632,
+      "sha256": "8fb6de7eec73d8c3665067ad4bb003ccd57f971ae316d2642e1627ac7268667a"
+    },
+    "iu_xray.zip": {
+      "bytes": 1109798311,
+      "sha256": "924bd5ef549c642c29a60e18d42c5882b40d263020eae000540dc7ede7c7f6b6"
+    }
+  }
+}

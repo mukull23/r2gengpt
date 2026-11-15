@@ -9,8 +9,13 @@ __pycache__/
 .venv/
 venv/
 
-# Data (too large for GitHub - download separately, see README)
-dataset/
+# Data (too large for GitHub - download separately, see dataset/iu_xray/README.md)
+# Only the small description and split files are tracked.
+dataset/**
+!dataset/*/
+!dataset/iu_xray/README.md
+!dataset/iu_xray/annotation.json
+!dataset/iu_xray/verification.json
 
 # Model checkpoints
 *.pt
