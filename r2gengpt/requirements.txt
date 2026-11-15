@@ -1,0 +1,15 @@
+torch>=2.2
+torchvision
+transformers>=4.45
+peft>=0.12
+accelerate
+tokenizers
+pillow
+pycocoevalcap
+tqdm
+numpy
+matplotlib
+pytest
+bitsandbytes; sys_platform == "linux"
+# Optional, for literature-comparable clinical metrics (evaluate.py --labeler chexbert / --radgraph):
+#   pip install f1chexbert radgraph

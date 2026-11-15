@@ -1,0 +1,170 @@
+{
+ "overall": {
+  "BLEU_1": 0.45746079919066984,
+  "BLEU_2": 0.28867826807614566,
+  "BLEU_3": 0.20397008120118193,
+  "BLEU_4": 0.15239237287426063,
+  "ROUGE_L": 0.3568162462562947,
+  "CIDEr": 0.4368253459717585,
+  "CE_precision": 0.7576271186440678,
+  "CE_recall": 0.6834862385321101,
+  "CE_F1": 0.7186495176848875,
+  "CE_precision_findings": 0.5,
+  "CE_recall_findings": 0.004807692307692308,
+  "CE_F1_findings": 0.009523809523809525,
+  "CE_precision_macro": 0.12560738581146744,
+  "CE_recall_macro": 0.07243460764587525,
+  "CE_F1_macro": 0.06360335881612478,
+  "CE_precision_example": 0.7576271186440678,
+  "CE_recall_example": 0.7483050847457627,
+  "CE_F1_example": 0.7514124293785314,
+  "labeler": "rules",
+  "hallucinated_findings_per_report": 0.001694915254237288,
+  "reports_with_hallucination": 0.001694915254237288,
+  "omitted_findings_per_report": 0.35084745762711866,
+  "reports_with_omission": 0.23389830508474577,
+  "abnormal_reports_called_normal": 0.9927536231884058
+ },
+ "per_label": {
+  "Enlarged Cardiomediastinum": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 1
+  },
+  "Cardiomegaly": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 26
+  },
+  "Lung Opacity": {
+   "precision": 1.0,
+   "recall": 0.014084507042253521,
+   "f1": 0.02777777777777778,
+   "support": 71
+  },
+  "Lung Lesion": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 15
+  },
+  "Edema": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 7
+  },
+  "Consolidation": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 2
+  },
+  "Pneumonia": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 1
+  },
+  "Atelectasis": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 22
+  },
+  "Pneumothorax": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 4
+  },
+  "Pleural Effusion": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 19
+  },
+  "Pleural Other": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 2
+  },
+  "Fracture": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 5
+  },
+  "Support Devices": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 33
+  },
+  "No Finding": {
+   "precision": 0.7585034013605442,
+   "recall": 1.0,
+   "f1": 0.8626692456479691,
+   "support": 446
+  }
+ },
+ "subsets": {
+  "normal": {
+   "n": 446,
+   "BLEU_1": 0.4605825761624492,
+   "BLEU_2": 0.2984276697712813,
+   "BLEU_3": 0.2164148924062221,
+   "BLEU_4": 0.16492905231788102,
+   "ROUGE_L": 0.38215731315095924,
+   "CIDEr": 0.5357859838386221,
+   "CE_precision": 1.0,
+   "CE_recall": 0.9780701754385965,
+   "CE_F1": 0.9889135254988913,
+   "CE_precision_findings": 0.0,
+   "CE_recall_findings": 0.0,
+   "CE_F1_findings": 0.0,
+   "CE_precision_macro": 0.07142857142857142,
+   "CE_recall_macro": 0.07142857142857142,
+   "CE_F1_macro": 0.07142857142857142,
+   "CE_precision_example": 1.0,
+   "CE_recall_example": 0.9887892376681614,
+   "CE_F1_example": 0.9925261584454412
+  },
+  "abnormal": {
+   "n": 144,
+   "BLEU_1": 0.330555766790619,
+   "BLEU_2": 0.18958278630037037,
+   "BLEU_3": 0.1195967075715859,
+   "BLEU_4": 0.0810070345867288,
+   "ROUGE_L": 0.2783293307353199,
+   "CIDEr": 0.12697760640768327,
+   "CE_precision": 0.006944444444444444,
+   "CE_recall": 0.005050505050505051,
+   "CE_F1": 0.005847953216374269,
+   "CE_precision_findings": 0.5,
+   "CE_recall_findings": 0.005050505050505051,
+   "CE_F1_findings": 0.01,
+   "CE_precision_macro": 0.07142857142857142,
+   "CE_recall_macro": 0.001006036217303823,
+   "CE_F1_macro": 0.0019841269841269845,
+   "CE_precision_example": 0.006944444444444444,
+   "CE_recall_example": 0.003472222222222222,
+   "CE_F1_example": 0.004629629629629629
+  }
+ },
+ "setup": {
+  "checkpoint": "runs/iu_delta_tinyllama_llmlora/last.pt",
+  "trained_on": "iu_xray",
+  "evaluated_on": "iu_xray",
+  "split": "test",
+  "n": 590,
+  "num_beams": 3,
+  "max_new_tokens": 100,
+  "min_new_tokens": 0,
+  "repetition_penalty": 2.0,
+  "length_penalty": 2.0
+ }
+}

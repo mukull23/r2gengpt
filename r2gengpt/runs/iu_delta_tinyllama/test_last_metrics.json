@@ -1,0 +1,161 @@
+{
+ "overall": {
+  "BLEU_1": 0.4607533365585545,
+  "BLEU_2": 0.3046241835612217,
+  "BLEU_3": 0.22296207472252577,
+  "BLEU_4": 0.16915280316751816,
+  "ROUGE_L": 0.37911491706987877,
+  "CIDEr": 0.45121160441929253,
+  "CE_precision": 0.7559322033898305,
+  "CE_recall": 0.6819571865443425,
+  "CE_F1": 0.7170418006430868,
+  "CE_precision_macro": 0.05399515738498789,
+  "CE_recall_macro": 0.07142857142857142,
+  "CE_F1_macro": 0.06150027578599008,
+  "CE_precision_example": 0.7559322033898305,
+  "CE_recall_example": 0.747457627118644,
+  "CE_F1_example": 0.7502824858757065,
+  "labeler": "rules",
+  "hallucinated_findings_per_report": 0.0,
+  "reports_with_hallucination": 0.0,
+  "omitted_findings_per_report": 0.3525423728813559,
+  "reports_with_omission": 0.23389830508474577,
+  "abnormal_reports_called_normal": 1.0
+ },
+ "per_label": {
+  "Enlarged Cardiomediastinum": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 1
+  },
+  "Cardiomegaly": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 26
+  },
+  "Lung Opacity": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 71
+  },
+  "Lung Lesion": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 15
+  },
+  "Edema": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 7
+  },
+  "Consolidation": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 2
+  },
+  "Pneumonia": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 1
+  },
+  "Atelectasis": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 22
+  },
+  "Pneumothorax": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 4
+  },
+  "Pleural Effusion": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 19
+  },
+  "Pleural Other": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 2
+  },
+  "Fracture": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 5
+  },
+  "Support Devices": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 33
+  },
+  "No Finding": {
+   "precision": 0.7559322033898305,
+   "recall": 1.0,
+   "f1": 0.8610038610038611,
+   "support": 446
+  }
+ },
+ "subsets": {
+  "normal": {
+   "n": 446,
+   "BLEU_1": 0.5188370988084533,
+   "BLEU_2": 0.35019543184586777,
+   "BLEU_3": 0.26161865180915045,
+   "BLEU_4": 0.20200995782299713,
+   "ROUGE_L": 0.40297369990256865,
+   "CIDEr": 0.5384003157326056,
+   "CE_precision": 1.0,
+   "CE_recall": 0.9780701754385965,
+   "CE_F1": 0.9889135254988913,
+   "CE_precision_macro": 0.07142857142857142,
+   "CE_recall_macro": 0.07142857142857142,
+   "CE_F1_macro": 0.07142857142857142,
+   "CE_precision_example": 1.0,
+   "CE_recall_example": 0.9887892376681614,
+   "CE_F1_example": 0.9925261584454412
+  },
+  "abnormal": {
+   "n": 144,
+   "BLEU_1": 0.32024795618662105,
+   "BLEU_2": 0.19777142645691304,
+   "BLEU_3": 0.13404935333677634,
+   "BLEU_4": 0.09445496208415637,
+   "ROUGE_L": 0.30521896468529797,
+   "CIDEr": 0.1853152561266362,
+   "CE_precision": 0.0,
+   "CE_recall": 0.0,
+   "CE_F1": 0.0,
+   "CE_precision_macro": 0.0,
+   "CE_recall_macro": 0.0,
+   "CE_F1_macro": 0.0,
+   "CE_precision_example": 0.0,
+   "CE_recall_example": 0.0,
+   "CE_F1_example": 0.0
+  }
+ },
+ "setup": {
+  "checkpoint": "runs/iu_delta_tinyllama/last.pt",
+  "trained_on": "iu_xray",
+  "evaluated_on": "iu_xray",
+  "split": "test",
+  "n": 590,
+  "num_beams": 3,
+  "max_new_tokens": 100,
+  "min_new_tokens": 0,
+  "repetition_penalty": 2.0,
+  "length_penalty": 2.0
+ }
+}

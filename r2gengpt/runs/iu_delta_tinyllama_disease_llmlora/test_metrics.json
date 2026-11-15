@@ -1,0 +1,170 @@
+{
+ "overall": {
+  "BLEU_1": 0.44670960244053814,
+  "BLEU_2": 0.28324906580280285,
+  "BLEU_3": 0.19918919332067125,
+  "BLEU_4": 0.14750567618290572,
+  "ROUGE_L": 0.35215012039623145,
+  "CIDEr": 0.46857453002521693,
+  "CE_precision": 0.6357039187227866,
+  "CE_recall": 0.6697247706422018,
+  "CE_F1": 0.6522710349962769,
+  "CE_precision_findings": 0.15942028985507245,
+  "CE_recall_findings": 0.15865384615384615,
+  "CE_F1_findings": 0.15903614457831325,
+  "CE_precision_macro": 0.11477346188451487,
+  "CE_recall_macro": 0.14089002060244668,
+  "CE_F1_macro": 0.11856749505609865,
+  "CE_precision_example": 0.7086158192090395,
+  "CE_recall_example": 0.7110169491525423,
+  "CE_F1_example": 0.7041041162227604,
+  "labeler": "rules",
+  "hallucinated_findings_per_report": 0.29491525423728815,
+  "reports_with_hallucination": 0.1847457627118644,
+  "omitted_findings_per_report": 0.2966101694915254,
+  "reports_with_omission": 0.21525423728813559,
+  "abnormal_reports_called_normal": 0.5652173913043478
+ },
+ "per_label": {
+  "Enlarged Cardiomediastinum": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 1
+  },
+  "Cardiomegaly": {
+   "precision": 0.19736842105263158,
+   "recall": 0.5769230769230769,
+   "f1": 0.2941176470588235,
+   "support": 26
+  },
+  "Lung Opacity": {
+   "precision": 0.2558139534883721,
+   "recall": 0.15492957746478872,
+   "f1": 0.19298245614035084,
+   "support": 71
+  },
+  "Lung Lesion": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 15
+  },
+  "Edema": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 7
+  },
+  "Consolidation": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 2
+  },
+  "Pneumonia": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 1
+  },
+  "Atelectasis": {
+   "precision": 0.13157894736842105,
+   "recall": 0.22727272727272727,
+   "f1": 0.16666666666666666,
+   "support": 22
+  },
+  "Pneumothorax": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 4
+  },
+  "Pleural Effusion": {
+   "precision": 0.18181818181818182,
+   "recall": 0.10526315789473684,
+   "f1": 0.13333333333333333,
+   "support": 19
+  },
+  "Pleural Other": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 2
+  },
+  "Fracture": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 5
+  },
+  "Support Devices": {
+   "precision": 0.0,
+   "recall": 0.0,
+   "f1": 0.0,
+   "support": 33
+  },
+  "No Finding": {
+   "precision": 0.8402489626556017,
+   "recall": 0.9080717488789237,
+   "f1": 0.8728448275862069,
+   "support": 446
+  }
+ },
+ "subsets": {
+  "normal": {
+   "n": 446,
+   "BLEU_1": 0.44981878088959143,
+   "BLEU_2": 0.294504090336773,
+   "BLEU_3": 0.21400417796653387,
+   "BLEU_4": 0.16321991006218287,
+   "ROUGE_L": 0.3769818158290196,
+   "CIDEr": 0.5789756892458054,
+   "CE_precision": 0.8472803347280334,
+   "CE_recall": 0.8881578947368421,
+   "CE_F1": 0.867237687366167,
+   "CE_precision_findings": 0.0,
+   "CE_recall_findings": 0.0,
+   "CE_F1_findings": 0.0,
+   "CE_precision_macro": 0.07142857142857142,
+   "CE_recall_macro": 0.06486226777706598,
+   "CE_F1_macro": 0.06798724190028536,
+   "CE_precision_example": 0.8968609865470852,
+   "CE_recall_example": 0.897982062780269,
+   "CE_F1_example": 0.8938714499252618
+  },
+  "abnormal": {
+   "n": 144,
+   "BLEU_1": 0.37972403804853627,
+   "BLEU_2": 0.21702106227677104,
+   "BLEU_3": 0.1337394571470799,
+   "BLEU_4": 0.08533430301645603,
+   "ROUGE_L": 0.275240841486346,
+   "CIDEr": 0.13111182420975295,
+   "CE_precision": 0.15639810426540285,
+   "CE_recall": 0.16666666666666666,
+   "CE_F1": 0.1613691931540342,
+   "CE_precision_findings": 0.2462686567164179,
+   "CE_recall_findings": 0.16666666666666666,
+   "CE_F1_findings": 0.19879518072289154,
+   "CE_precision_macro": 0.08225808322571167,
+   "CE_recall_macro": 0.0760277528253807,
+   "CE_F1_macro": 0.06935933594514553,
+   "CE_precision_example": 0.1255787037037037,
+   "CE_recall_example": 0.13194444444444442,
+   "CE_F1_example": 0.11635251322751324
+  }
+ },
+ "setup": {
+  "checkpoint": "runs/iu_delta_tinyllama_disease_llmlora/best.pt",
+  "trained_on": "iu_xray",
+  "evaluated_on": "iu_xray",
+  "split": "test",
+  "n": 590,
+  "num_beams": 3,
+  "max_new_tokens": 100,
+  "min_new_tokens": 0,
+  "repetition_penalty": 2.0,
+  "length_penalty": 2.0
+ }
+}

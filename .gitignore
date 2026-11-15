@@ -1,0 +1,27 @@
+# OS / editor
+.DS_Store
+.claude/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Data (too large for GitHub - download separately, see README)
+dataset/
+
+# Model checkpoints
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# Scratch / build output
+tmp/
+.presentation-build/
+
+# Third-party papers (copyrighted)
+1-s2.0-S2950162823000334-main.pdf
+R2GenGPT_Research_Paper.pdf
